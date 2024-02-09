@@ -68,25 +68,6 @@ class SectionHome extends StatelessWidget {
             const Spacer(),
             Row(
               children: [
-                // GestureDetector(
-                //   onTap: () => launchEmail(
-                //       toEmail: 'mdelgado2107@gmail.com',
-                //       subject: 'prueba',
-                //       message: 'hi'),
-                //   child: Container(
-                //     width: 40.0,
-                //     height: 40.0,
-                //     decoration: BoxDecoration(
-                //       borderRadius: borderRadius20,
-                //       border: Border.all(color: PortfolioColors.colorWhite),
-                //     ),
-                //     child: Icon(
-                //       Ionicons.mail_open_outline,
-                //       color: PortfolioColors.colorWhite,
-                //     ),
-                //   ),
-                // ),
-                // horizontalMargin8,
                 GestureDetector(
                   onTap: () {
                     html.window.open(
