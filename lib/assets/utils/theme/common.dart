@@ -207,6 +207,7 @@ extension TexThemeExtensions on TextTheme {
         color: PortfolioColors.colorGrey,
         fontFamily: 'Nunito',
         fontWeight: FontWeight.normal,
+        fontStyle: FontStyle.normal,
         fontSize: 15.0,
       );
 
